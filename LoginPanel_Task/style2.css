@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.container{
+    width: 350px;
+    margin: auto;
+}
+.login-panel{
+    margin-top: 50px;
+    border-radius: 2%;
+    text-align: center;
+    background-color:#ff6f27;
+    height: 200px;
+}
+.login-panel form p{
+    color: white;
+    padding-top: 20px;
+}
+
+.login-panel form input{
+    line-height:3;
+    width: 280px;
+    border: none;
+    border-radius: 3%;
+    background-color: #c74515;
+    color: white;
+    margin-top: 25px;
+
+}
+::placeholder{
+    color: white;
+}
+.login-panel-footer{
+    margin-top: 8%;
+    border-radius: 2%;
+    text-align: center;
+    background-color:#c74515;
+    height: 100px;
+    padding-top: 10%;
+}
+
+.login-panel-footer a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+.login-panel-footer button{
+    width: 35%;
+    height: 45%;
+    border:none;
+    border-radius:6% ;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
